@@ -1,5 +1,6 @@
 "use client";
 
+import EducationSection from "@/components/index/EducationSection";
 import ProjectsSection from "@/components/index/ProjectsSection";
 import Link from "next/link";
 import { useState } from "react";
@@ -74,13 +75,11 @@ export default function HomePage() {
         </section>
 
         <div className="flex sm:flex-row flex-col gap-3">
-          {/* Projects Section */}
           <ProjectsSection />
-
-          {/* Education Section */}
-          <section className="flex flex-col gap-3 p-3 bg-white rounded-md flex-1">
-            <h2 className="font-semibold text-lg sm:text-xl">Education</h2>
-          </section>
+          <div className="flex flex-col gap-3">
+            <EducationSection />
+            <SkillsSection />
+          </div>
         </div>
       </div>
     </div>
