@@ -24,8 +24,8 @@ export default function HomePage() {
           <ProjectsSection />
           <div className="flex flex-col gap-3">
             <EducationSection />
-            <SkillsSection />
             <AdditionalEducationSection />
+            <SkillsSection />
           </div>
         </div>
       </div>

@@ -29,7 +29,7 @@ export default function AdditionalEducationSection() {
           className="flex flex-col gap-1 group"
           key={index}
         >
-          <h3 className="font-bold group-hover:underline underline-offset-4">
+          <h3 className="font-bold group-hover:underline underline-offset-4 decoration-green-600">
             {education.title}
           </h3>
           <p className="text-stone-600 text-sm">{education.description}</p>
