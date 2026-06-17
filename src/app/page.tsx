@@ -17,9 +17,10 @@ export default function HomePage() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <div className="min-h-screen bg-sky-50">
+    <div className="min-h-screen bg-green-50">
       <div className="flex mx-auto max-w-3xl flex-col gap-3 p-3">
-        <div className="sticky top-3 flex flex-col gap-3">
+        {/* Navbar */}
+        <section className="sticky top-3 flex flex-col gap-3">
           <header className="justify-between flex bg-white rounded-md p-3">
             <Link className="hover:underline underline-offset-4" href={"/"}>
               seesmof
@@ -28,7 +29,7 @@ export default function HomePage() {
               <NavigationLinks />
             </div>
             <button
-              className="block sm:hidden hover:underline underline-offset-4"
+              className="block sm:hidden hover:underline underline-offset-4 cursor-pointer"
               onClick={() => setIsOpen((isOpen) => !isOpen)}
             >
               {isOpen ? "Hide" : "Open"}
@@ -41,7 +42,15 @@ export default function HomePage() {
               </nav>
             </>
           )}
-        </div>
+        </section>
+
+        {/* Hero Section */}
+        <section className="flex flex-col bg-white rounded-md p-3 py-24 justify-center items-center">
+          <h1 className="font-bold text-3xl">Christian Frontend Developer</h1>
+          <p className="mt-3 text-stone-500">
+            Working for the glory of our Lord Jesus Christ.
+          </p>
+        </section>
       </div>
     </div>
   );
