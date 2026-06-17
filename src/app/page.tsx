@@ -51,6 +51,18 @@ export default function HomePage() {
             Working for the glory of our Lord Jesus Christ.
           </p>
         </section>
+
+        <div className="flex sm:flex-row flex-col gap-3">
+          {/* Projects Section */}
+          <section className="flex flex-col gap-3 p-3 bg-white rounded-md flex-1">
+            <h2 className="font-semibold text-lg sm:text-xl">Projects</h2>
+          </section>
+
+          {/* Education Section */}
+          <section className="flex flex-col gap-3 p-3 bg-white rounded-md flex-1">
+            <h2 className="font-semibold text-lg sm:text-xl">Education</h2>
+          </section>
+        </div>
       </div>
     </div>
   );
