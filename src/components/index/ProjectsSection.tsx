@@ -66,7 +66,7 @@ const ProjectComponent = ({ project }: { project: Project }) => {
 
 export default function ProjectsSection() {
   return (
-    <section className="flex flex-col gap-3 p-3 bg-white rounded-md flex-1 h-fit">
+    <section className="flex flex-col gap-3 p-3 bg-white outline outline-stone-100 rounded-md flex-1 h-fit">
       <h2 className="font-semibold text-lg sm:text-xl">Projects</h2>
       {projects.map((project, index) => (
         <ProjectComponent project={project} key={index} />

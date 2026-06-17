@@ -22,7 +22,7 @@ const educationDetails: Education[] = [
 
 export default function EducationSection() {
   return (
-    <section className="flex flex-col gap-3 p-3 bg-white rounded-md">
+    <section className="flex flex-col gap-3 p-3 bg-white outline outline-stone-100 rounded-md">
       <h2 className="font-semibold text-lg sm:text-xl">Education</h2>
       {educationDetails.map((detail, index) => (
         <EducationComponent education={detail} key={index} />
