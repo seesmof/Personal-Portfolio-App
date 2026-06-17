@@ -34,12 +34,12 @@ export default function Navbar() {
   return (
     <section className="sticky top-3 flex flex-col gap-3 z-50">
       <header className="justify-between flex bg-white outline outline-stone-100 rounded-md p-3">
-        <Link
-          className="hover:underline decoration-green-600 underline-offset-4"
-          href={"/"}
+        <p
+          className="hover:underline decoration-green-600 underline-offset-4 cursor-pointer"
+          onClick={() => navigator.clipboard.writeText("Oleh Onyshchenko")}
         >
           seesmof
-        </Link>
+        </p>
         <div className="gap-3 hidden sm:flex">
           <NavigationLinks />
         </div>
