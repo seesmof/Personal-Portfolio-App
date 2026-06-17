@@ -8,21 +8,21 @@ const NavigationLinks = () => {
     <>
       <Link
         className="hover:underline underline-offset-4 decoration-green-600"
-        href={"/projects/"}
+        href="https://github.com/seesmof"
       >
-        Projects
+        GitHub
       </Link>
       <Link
         className="hover:underline underline-offset-4 decoration-green-600"
-        href={"/articles/"}
+        href="mailto:seesmwork@gmail.com"
       >
-        Articles
+        EMail
       </Link>
       <Link
         className="hover:underline underline-offset-4 decoration-green-600"
-        href={"/contact/"}
+        href="https://t.me/seesmof"
       >
-        Contact
+        Telegram
       </Link>
     </>
   );
