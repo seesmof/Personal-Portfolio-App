@@ -2,6 +2,7 @@
 
 import EducationSection from "@/components/index/EducationSection";
 import ProjectsSection from "@/components/index/ProjectsSection";
+import SkillsSection from "@/components/index/SkillsSection";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -37,7 +38,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-green-50">
       <div className="flex mx-auto max-w-3xl flex-col gap-3 p-3">
         {/* Navbar */}
-        <section className="sticky top-3 flex flex-col gap-3">
+        <section className="sticky top-3 flex flex-col gap-3 z-50">
           <header className="justify-between flex bg-white rounded-md p-3">
             <Link
               className="hover:underline decoration-green-600 underline-offset-4"
