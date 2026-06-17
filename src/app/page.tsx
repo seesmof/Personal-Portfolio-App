@@ -1,3 +1,4 @@
+import AdditionalEducationSection from "@/components/index/AdditionalEducationSection";
 import EducationSection from "@/components/index/EducationSection";
 import ProjectsSection from "@/components/index/ProjectsSection";
 import SkillsSection from "@/components/index/SkillsSection";
@@ -24,6 +25,7 @@ export default function HomePage() {
           <div className="flex flex-col gap-3">
             <EducationSection />
             <SkillsSection />
+            <AdditionalEducationSection />
           </div>
         </div>
       </div>
