@@ -1,5 +1,6 @@
 "use client";
 
+import ProjectsSection from "@/components/index/ProjectsSection";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -74,25 +75,7 @@ export default function HomePage() {
 
         <div className="flex sm:flex-row flex-col gap-3">
           {/* Projects Section */}
-          <section className="flex flex-col gap-3 p-3 bg-white rounded-md flex-1">
-            <h2 className="font-semibold text-lg sm:text-xl">Projects</h2>
-
-            <div className="flex flex-col gap-1">
-              <h3 className="font-bold">
-                <Link
-                  className="hover:underline underline-offset-4 decoration-green-600"
-                  href={"https://api-forge-clone.vercel.app/"}
-                >
-                  API Forge Landing
-                </Link>
-              </h3>
-              <div className="flex gap-3 text-sm text-stone-600">
-                <p>Next.js</p>
-                <p>TailwindCSS</p>
-                <p>TypeScript</p>
-              </div>
-            </div>
-          </section>
+          <ProjectsSection />
 
           {/* Education Section */}
           <section className="flex flex-col gap-3 p-3 bg-white rounded-md flex-1">
