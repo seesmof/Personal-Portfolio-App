@@ -6,9 +6,24 @@ import { useState } from "react";
 const NavigationLinks = () => {
   return (
     <>
-      <Link href={"/projects/"}>Projects</Link>
-      <Link href={"/articles/"}>Articles</Link>
-      <Link href={"/contact/"}>Contact</Link>
+      <Link
+        className="hover:underline underline-offset-4 decoration-green-600"
+        href={"/projects/"}
+      >
+        Projects
+      </Link>
+      <Link
+        className="hover:underline underline-offset-4 decoration-green-600"
+        href={"/articles/"}
+      >
+        Articles
+      </Link>
+      <Link
+        className="hover:underline underline-offset-4 decoration-green-600"
+        href={"/contact/"}
+      >
+        Contact
+      </Link>
     </>
   );
 };
@@ -22,7 +37,10 @@ export default function HomePage() {
         {/* Navbar */}
         <section className="sticky top-3 flex flex-col gap-3">
           <header className="justify-between flex bg-white rounded-md p-3">
-            <Link className="hover:underline underline-offset-4" href={"/"}>
+            <Link
+              className="hover:underline decoration-green-600 underline-offset-4"
+              href={"/"}
+            >
               seesmof
             </Link>
             <div className="gap-3 hidden sm:flex">
@@ -46,8 +64,10 @@ export default function HomePage() {
 
         {/* Hero Section */}
         <section className="flex flex-col bg-white rounded-md p-3 py-24 justify-center items-center">
-          <h1 className="font-bold text-3xl">Christian Frontend Developer</h1>
-          <p className="mt-3 text-stone-500">
+          <h1 className="font-bold text-3xl sm:text-4xl">
+            Christian Frontend Developer
+          </h1>
+          <p className="mt-3 text-stone-600">
             Working for the glory of our Lord Jesus Christ.
           </p>
         </section>
@@ -56,6 +76,22 @@ export default function HomePage() {
           {/* Projects Section */}
           <section className="flex flex-col gap-3 p-3 bg-white rounded-md flex-1">
             <h2 className="font-semibold text-lg sm:text-xl">Projects</h2>
+
+            <div className="flex flex-col gap-1">
+              <h3 className="font-bold">
+                <Link
+                  className="hover:underline underline-offset-4 decoration-green-600"
+                  href={"https://api-forge-clone.vercel.app/"}
+                >
+                  API Forge Landing
+                </Link>
+              </h3>
+              <div className="flex gap-3 text-sm text-stone-600">
+                <p>Next.js</p>
+                <p>TailwindCSS</p>
+                <p>TypeScript</p>
+              </div>
+            </div>
           </section>
 
           {/* Education Section */}
