@@ -1,10 +1,11 @@
 "use client";
 
+import Link from "next/link";
+import { useState } from "react";
+
 import EducationSection from "@/components/index/EducationSection";
 import ProjectsSection from "@/components/index/ProjectsSection";
 import SkillsSection from "@/components/index/SkillsSection";
-import Link from "next/link";
-import { useState } from "react";
 
 const NavigationLinks = () => {
   return (
