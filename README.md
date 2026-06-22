@@ -4,7 +4,7 @@
 
 Believe and live!
 
-This is my portfolio website. Check out the site live here: https://personal-portfolio-webapp-xi.vercel.app/.
+This is my portfolio website.
 
 ## Links
 
