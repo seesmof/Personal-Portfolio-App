@@ -8,6 +8,11 @@ interface Project {
 
 const projects: Project[] = [
   {
+    name: "Bible Memorization App",
+    href: "https://bible-memorization-app.vercel.app/",
+    technologies: ["Next.js", "FastAPI", "Python"],
+  },
+  {
     name: "API Forge",
     href: "https://api-forge-clone.vercel.app/",
     technologies: ["Next.js", "TailwindCSS", "TypeScript"],
