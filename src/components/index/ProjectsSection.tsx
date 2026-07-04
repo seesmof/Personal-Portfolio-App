@@ -13,8 +13,8 @@ const projects: Project[] = [
     technologies: ["Next.js", "FastAPI", "Python"],
   },
   {
-    name: "API Forge",
-    href: "https://api-forge-clone.vercel.app/",
+    name: "Tic Tac Toe App",
+    href: "https://tic-tac-toe-next-js-ruby.vercel.app/",
     technologies: ["Next.js", "TailwindCSS", "TypeScript"],
   },
   {
