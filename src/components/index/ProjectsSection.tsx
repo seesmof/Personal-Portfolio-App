@@ -47,6 +47,11 @@ const projects: Project[] = [
     href: "https://todo-app-ten-chi-22.vercel.app/",
     technologies: ["Next.js", "TailwindCSS", "TypeScript"],
   },
+  {
+    name: "Categories Switcher",
+    href: "https://categories-switcher-app.vercel.app/",
+    technologies: ["Next.js", "TailwindCSS", "TypeScript"],
+  },
 ];
 
 const ProjectComponent = ({ project }: { project: Project }) => {
