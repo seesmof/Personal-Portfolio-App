@@ -10,47 +10,47 @@ const projects: Project[] = [
   {
     name: "Bible Memorization App",
     href: "https://bible-memorization-app.vercel.app/",
-    technologies: ["Next.js", "FastAPI", "Python"],
+    technologies: ["Next.js", "FastAPI", "Express.js"],
   },
   {
     name: "Tic Tac Toe App",
     href: "https://tic-tac-toe-next-js-ruby.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS", "TypeScript"],
+    technologies: ["Next.js", "TailwindCSS"],
   },
   {
     name: "Tabs Component",
     href: "https://tabs-component-next-js.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS", "TypeScript"],
+    technologies: ["Next.js", "TailwindCSS"],
   },
   {
     name: "Life Guide",
     href: "https://life-guide-three.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS", "TypeScript"],
+    technologies: ["Next.js", "TailwindCSS"],
   },
   {
     name: "Bible Accordion Component",
     href: "https://bible-trivia-accordion.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS", "TypeScript"],
+    technologies: ["Next.js", "TailwindCSS"],
   },
   {
     name: "Cars Search Component",
     href: "https://cars-search-next-js.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS", "TypeScript"],
+    technologies: ["Next.js", "TailwindCSS"],
   },
   {
     name: "Accessible Form Component",
     href: "https://accessible-signup-form.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS", "TypeScript"],
+    technologies: ["Next.js", "TailwindCSS"],
   },
   {
     name: "Todo App",
     href: "https://todo-app-ten-chi-22.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS", "TypeScript"],
+    technologies: ["Next.js", "TailwindCSS"],
   },
   {
     name: "Categories Switcher",
     href: "https://categories-switcher-app.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS", "TypeScript"],
+    technologies: ["Next.js", "TailwindCSS"],
   },
 ];
 
