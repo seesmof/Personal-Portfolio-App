@@ -1,4 +1,11 @@
-const skills: string[] = ["Python", "TypeScript", "React", "TailwindCSS"];
+const skills: string[] = [
+  "Python",
+  "TypeScript",
+  "React",
+  "TailwindCSS",
+  "DaisyUI",
+  "Express.js",
+];
 
 export default function SkillsSection() {
   return (
