@@ -52,6 +52,11 @@ const projects: Project[] = [
     href: "https://categories-switcher-app.vercel.app/",
     technologies: ["Next.js", "TailwindCSS"],
   },
+  {
+    name: "Random Bible Verse",
+    href: "https://random-bible-verse-liart.vercel.app/",
+    technologies: ["Next.js", "TailwindCSS"],
+  },
 ];
 
 const ProjectComponent = ({ project }: { project: Project }) => {
