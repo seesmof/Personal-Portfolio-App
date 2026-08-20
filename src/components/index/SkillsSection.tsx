@@ -4,6 +4,7 @@ const skills: string[] = [
   "React",
   "TailwindCSS",
   "DaisyUI",
+  "ShadCN UI",
   "Express.js",
 ];
 
@@ -12,9 +13,11 @@ export default function SkillsSection() {
     <section className="flex flex-col gap-3 p-3 bg-white outline outline-stone-100 shadow rounded-md">
       <h2 className="font-semibold text-lg sm:text-xl">Skills</h2>
       <ul className="list-disc list-inside ml-1">
-        {skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
+        {skills
+          .sort((one, two) => one.localeCompare(two))
+          .map((skill, index) => (
+            <li key={index}>{skill}</li>
+          ))}
       </ul>
     </section>
   );
