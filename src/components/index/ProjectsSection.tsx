@@ -62,6 +62,11 @@ const projects: Project[] = [
     href: "https://shopping-cart-webapp-five.vercel.app/",
     technologies: ["Next.js", "Zustand"],
   },
+  {
+    name: "Flags Viewer",
+    href: "https://flags-viewer.vercel.app/",
+    technologies: ["Next.js"],
+  },
 ];
 
 const ProjectComponent = ({ project }: { project: Project }) => {
