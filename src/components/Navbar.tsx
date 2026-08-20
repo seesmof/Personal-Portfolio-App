@@ -33,7 +33,7 @@ export default function Navbar() {
 
   return (
     <section className="sticky top-3 flex flex-col gap-3 z-50">
-      <header className="justify-between flex bg-white outline outline-stone-100 rounded-md p-3">
+      <header className="justify-between flex bg-white outline outline-stone-100 shadow rounded-md p-3">
         <p
           className="hover:underline decoration-green-600 underline-offset-4 cursor-pointer"
           onClick={() => navigator.clipboard.writeText("Oleh Onyshchenko")}
@@ -52,7 +52,7 @@ export default function Navbar() {
       </header>
       {isOpen && (
         <>
-          <nav className="flex flex-col gap-3 bg-white outline outline-stone-100 w-full p-3 rounded-md">
+          <nav className="flex flex-col gap-3 bg-white outline outline-stone-100 shadow w-full p-3 rounded-md">
             <NavigationLinks />
           </nav>
         </>

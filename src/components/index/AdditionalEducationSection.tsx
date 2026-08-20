@@ -21,7 +21,7 @@ const educations: Education[] = [
 
 export default function AdditionalEducationSection() {
   return (
-    <section className="bg-white outline outline-stone-100 rounded-md p-3 flex flex-col gap-3">
+    <section className="bg-white outline outline-stone-100 shadow rounded-md p-3 flex flex-col gap-3">
       <h2 className="font-semibold text-lg sm:text-xl">Additional Education</h2>
       {educations.map((education, index) => (
         <Link

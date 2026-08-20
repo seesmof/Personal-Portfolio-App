@@ -15,52 +15,52 @@ const projects: Project[] = [
   {
     name: "Tic Tac Toe App",
     href: "https://tic-tac-toe-next-js-ruby.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS"],
+    technologies: ["Next.js"],
   },
   {
     name: "Tabs Component",
     href: "https://tabs-component-next-js.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS"],
+    technologies: ["Next.js"],
   },
   {
     name: "Life Guide",
     href: "https://life-guide-three.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS"],
+    technologies: ["Next.js"],
   },
   {
     name: "Bible Accordion Component",
     href: "https://bible-trivia-accordion.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS"],
+    technologies: ["Next.js"],
   },
   {
     name: "Cars Search Component",
     href: "https://cars-search-next-js.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS"],
+    technologies: ["Next.js"],
   },
   {
     name: "Accessible Form Component",
     href: "https://accessible-signup-form.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS"],
+    technologies: ["Next.js"],
   },
   {
     name: "Todo App",
     href: "https://todo-app-ten-chi-22.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS"],
+    technologies: ["Next.js"],
   },
   {
     name: "Categories Switcher",
     href: "https://categories-switcher-app.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS"],
+    technologies: ["Next.js"],
   },
   {
     name: "Random Bible Verse",
     href: "https://random-bible-verse-liart.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS"],
+    technologies: ["Next.js"],
   },
   {
     name: "Cart App",
     href: "https://shopping-cart-webapp-five.vercel.app/",
-    technologies: ["Next.js", "TailwindCSS", "Zustand"],
+    technologies: ["Next.js", "Zustand"],
   },
 ];
 
@@ -86,7 +86,7 @@ const ProjectComponent = ({ project }: { project: Project }) => {
 
 export default function ProjectsSection() {
   return (
-    <section className="flex flex-col gap-3 p-3 bg-white outline outline-stone-100 rounded-md flex-1 h-fit">
+    <section className="flex flex-col gap-3 p-3 bg-white outline outline-stone-100 shadow rounded-md flex-1 h-fit">
       <h2 className="font-semibold text-lg sm:text-xl">Projects</h2>
       {projects.map((project, index) => (
         <ProjectComponent project={project} key={index} />
