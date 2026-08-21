@@ -67,6 +67,11 @@ const projects: Project[] = [
     href: "https://flags-viewer.vercel.app/",
     technologies: ["Next.js"],
   },
+  {
+    name: "Bible Viewer",
+    href: "https://open-bible-reader.vercel.app/JHN/3",
+    technologies: ["Next.js"],
+  },
 ];
 
 const ProjectComponent = ({ project }: { project: Project }) => {
