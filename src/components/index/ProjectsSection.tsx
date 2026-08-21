@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-interface Project {
+type Project = {
   name: string;
   href: string;
   technologies: string[];
-}
+};
 
 const projects: Project[] = [
   {
@@ -86,9 +86,7 @@ const ProjectComponent = ({ project }: { project: Project }) => {
         </Link>
       </h3>
       <div className="flex gap-3 text-sm text-stone-600">
-        {project.technologies.map((technology, index) => (
-          <p key={index}>{technology}</p>
-        ))}
+        {project.technologies.join(" • ")}
       </div>
     </div>
   );
