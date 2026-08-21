@@ -40,7 +40,7 @@ const projects: Project[] = [
   {
     name: "Accessible Form Component",
     href: "https://accessible-signup-form.vercel.app/",
-    technologies: ["Next.js"],
+    technologies: ["Next.js", "React Hook Form"],
   },
   {
     name: "Todo App",
