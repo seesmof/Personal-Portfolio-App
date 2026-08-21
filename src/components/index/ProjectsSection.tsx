@@ -86,7 +86,7 @@ const ProjectComponent = ({ project }: { project: Project }) => {
         </Link>
       </h3>
       <div className="flex gap-3 text-sm text-stone-600">
-        {project.technologies.join(" • ")}
+        {project.technologies.sort().join(" • ")}
       </div>
     </div>
   );
