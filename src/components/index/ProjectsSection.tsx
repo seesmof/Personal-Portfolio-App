@@ -45,7 +45,7 @@ const projects: Project[] = [
   {
     name: "Todo App",
     href: "https://todo-app-ten-chi-22.vercel.app/",
-    technologies: ["Next.js"],
+    technologies: ["Next.js", "Zustand"],
   },
   {
     name: "Categories Switcher",
