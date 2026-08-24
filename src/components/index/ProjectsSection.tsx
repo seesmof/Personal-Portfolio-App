@@ -18,7 +18,7 @@ const projects: Project[] = [
     technologies: ["Next.js"],
   },
   {
-    name: "Tabs Component",
+    name: "Tabs",
     href: "https://tabs-component-next-js.vercel.app/",
     technologies: ["Next.js"],
   },
@@ -28,17 +28,17 @@ const projects: Project[] = [
     technologies: ["Next.js"],
   },
   {
-    name: "Bible Accordion Component",
+    name: "Bible Accordion",
     href: "https://bible-trivia-accordion.vercel.app/",
     technologies: ["Next.js"],
   },
   {
-    name: "Cars Search Component",
+    name: "Cars Search",
     href: "https://cars-search-next-js.vercel.app/",
     technologies: ["Next.js"],
   },
   {
-    name: "Accessible Form Component",
+    name: "Accessible Form",
     href: "https://accessible-signup-form.vercel.app/",
     technologies: ["Next.js", "React Hook Form"],
   },
@@ -70,6 +70,11 @@ const projects: Project[] = [
   {
     name: "Bible Viewer",
     href: "https://open-bible-reader.vercel.app/JHN/3",
+    technologies: ["Next.js"],
+  },
+  {
+    name: "Sortable Table",
+    href: "https://sortable-table-component.vercel.app/",
     technologies: ["Next.js"],
   },
 ];
