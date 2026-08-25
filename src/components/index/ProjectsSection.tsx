@@ -77,6 +77,11 @@ const projects: Project[] = [
     href: "https://sortable-table-component.vercel.app/",
     technologies: ["Next.js"],
   },
+  {
+    name: "Colors Carousel",
+    href: "https://colors-carousel-next-js.vercel.app/",
+    technologies: ["Next.js"],
+  },
 ];
 
 const ProjectComponent = ({ project }: { project: Project }) => {
